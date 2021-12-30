@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>⛑️ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n\n📝 Language : <code>Python3</code>\n\n🧰 Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n\n📖 Source Code : <a href='https://github.com/UltraXPro/pdisk'>Click here</a>\n\n📢 Channel : @StreamTVCommunity\n\n🎀 Support Group : @RequestStreamTV</b>",
+            text = f"<b>⛑️ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n\n📝 Language : <code>Python3</code>\n\n🧰 Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n\n📖 Admins : <a href='https://t.me/Film_Pm_bot'>Click here</a>\n\n📢 Channel : @MTSLUpdates\n\n🎀 Support Group : @Filmmirrorchat</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
